@@ -8,16 +8,43 @@
 
 body, html {
     margin: 0;
-    background-color: #f1f1f1;
+    background-color: #cfc861;
     font-family: 'Dosis', sans-serif;
+    font-size: 17px;
     line-height: 1.6rem;
+    background-image: url()
 }
 
+header {
+    background: #cfc861;
+}
+
+#div-1 {
+    background: #6461A0;
+}
+
+#div-2 {
+    background: #A29C9B;
+    color: #511C29;
+}
 
 h2 {
     color: red;
+    text-align: center;
+    border: 5px solid #0A81D1;
+    cursor: pointer;
 }
 
 p {
-    color: green;
+    padding: 5px;
+    color: #EFBDEB;
+    text-align: center;
+    border: 5px solid #0A81D1;
+    margin-top: 20px;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
 }
